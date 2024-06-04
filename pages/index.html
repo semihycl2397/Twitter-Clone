@@ -68,7 +68,7 @@
 					</a>
 				</div>
 				<div class="nav-item">
-					<a href="">
+					<a href="profile.html">
 						<div class="nav-link">
 							<img src="../images/profil.png" alt="Profil">
 							<span>Profil</span>
@@ -505,7 +505,6 @@
         dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
     });
 
-    // Close dropdown if clicked outside
     document.addEventListener("click", function(event) {
         if (!dropdownToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
             dropdownMenu.style.display = "none";
